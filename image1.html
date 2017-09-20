@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>test(face)</title>
+	<style type="text/css">
+		body { background-image: url("test.jpg"); background-position: 50% center; background-repeat:no-repeat; }
+	</style>
+</head>
+<body>
+	<p>一个图像：
+		<img src="test.jpg" alt="My Photo" width="32" height="32">
+	</p>
+	<p>一个动图：
+		<img src="test.gif" alt="Computer man" width="32" height="32">
+	</p>
+	<p>插入动态图的语法和静态图的语法是一样的</p>
+	<br>
+	<p>
+		<img src="test.jpg" alt="My Photo" style="float: left;" width="32" height="32">一个带图片的段落，图片浮动在文字的左侧
+	</p>
+	<p>
+		<img src="test.gif" alt="Computer man" style="float: right;" width="32" height="32">一个带图片的段落，图片浮动在文字右侧
+	</p>
+	<P><b>注意：</b>在这里我们使用了CSS “float” 属性，在html 4中align属性已废弃，html 5 已不支持该属性，可以用CSS代替</P>
+	<br>
+	<p>点击图片不同区域，注意变化</p>
+	<img src="test.jpg" alt="My Photo" width="145" height="126" usemap="#Photo">
+	<map name="Photo">
+		<area shape="rect" coords="0,0,82,126" alt="Half" href="test.gif">
+		<area shape="circle" coords="90,58,3" alt="small circle" href="link.html">
+		<area shape="circle" coords="124,58,8" alt="big circle" href="link1.html">
+	</map>
+</body>
+</html>		
