@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>test(Face)</title>
+</head>
+<body>
+	<p>每个表格从一个table标签开始。
+	   每个表格的行从tr 标签开始。
+	   每个表格的数据从td 标签开始。
+	</p>
+	<h4>一列：</h4>
+	<table border="1">
+		<tr>
+			<td>100</td>
+		</tr>
+	</table>
+	<h4>一行三列：</h4>
+	<table border="1">
+		<tr>
+			<td>100</td>
+			<td>200</td>
+			<td>300</td>
+		</tr>
+	</table>
+	<h4>两行三列：</h4>
+	<table border="1">
+		<tr>
+			<td>100</td>
+			<td>200</td>
+			<td>300</td>
+		</tr>
+		<tr>
+			<td>400</td>
+			<td>500</td>
+			<td>600</td>
+		</tr>
+	</table>
+	<h4>带有表头的表：</h4>
+	<table border="1">
+		<tr>
+			<th>第一列</th>
+			<th>第二列</th>
+		</tr>
+		<tr>
+			<td>100</td>
+			<td>200</td>
+		</tr>
+		<tr>
+			<td>300</td>
+			<td>400</td>
+		</tr>
+	</table>
+	<h4>水平标题:</h4>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Telephone</th>
+			<th>Telephone</th>
+		</tr>
+		<tr>
+			<td>Bill Gates</td>
+			<td>123456789</td>
+			<td>123456789</td>
+		</tr>
+	</table>
+	<h4>垂直标题：</h4>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<td>Bill Gates</td>
+		</tr>
+		<tr>
+			<th>Telephone</th>
+			<td>123456789</td>
+		</tr>
+		<tr>
+			<th>Telephone</th>
+			<td>123456789</td>
+		</tr>
+	</table>
+	<h4>跨两行：</h4>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th colspan="2">Telephone</th>
+		</tr>
+		<tr>
+			<td>Bill Gates</td>
+			<td>123456789</td>
+		</tr>
+	</table>
+	<h4>跨两列：</h4>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<td>Bill Gates</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone</th>
+			<td>123456789</td>
+		</tr>
+		<tr>
+			<td>123456789</td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr>
+			<td>
+				<p>这是一个段落</p>
+				<p>这是另一个段落</p>
+			</td>
+			<td>
+				<p>这个单元格包含一个表格</p>
+				<table border="1">
+					<tr>
+						<td>A</td>
+						<td>B</td>
+					</tr>
+					<tr>
+						<td>C</td>
+						<td>D</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>这个单元格包含一个列表</p>
+				<ul>
+					<li>apples</li>
+					<li>bananas</li>
+					<li>pineapples</li>
+				</ul>
+			</td>
+			<td>HELLO</td>
+		</tr>
+	</table>
+	<h4>没有单元格边距：</h4>
+	<table border="1">
+		<tr>
+			<td>First</td>
+			<td>Row</td>
+		</tr>
+		<tr>
+			<td>Second</td>
+			<td>Row</td>
+		</tr>
+	</table>
+	<h4>有单元格边距：</h4>
+	<table border="1" cellpadding="10">
+		<tr>
+			<td>First</td>
+			<td>Row</td>
+		</tr>
+		<tr>
+			<td>Second</td>
+			<td>Row</td>
+		</tr>
+	</table>
+	<h4>单元格间距：</h4>
+	<table border="1" cellspacing="10">
+		<tr>
+			<td>First</td>
+			<td>Row</td>
+		</tr>
+		<tr>
+			<td>Second</td>
+			<td>Row</td>
+		</tr>
+	</table>
+</body>
+</html>
