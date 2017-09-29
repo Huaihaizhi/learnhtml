@@ -5,6 +5,7 @@
 	<title>test(Face)</title>
 </head>
 <body>
+	<h2>使用 div 元素的网页布局</h2>
 	<div id="container" style="width: 500px">
 		<div id="header" style="background-color: #FFA500;">
 			<h1 style="margin-bottom: 0;">主要网页标题</h1>
@@ -18,8 +19,30 @@
 		<div id="content" style="background-color: #EEEEEE;height: 200px;width: 400px;float: left;">内容在这里
 		</div>
 		<div id="footer" style="background-color: #FFA500;clear: both;text-align: center;">
-			版权@ <a href="http://www.face-python.wang">face-python.wang</a>
+			版权@ <a href="http://www.face-python.wang">face-python</a>
 		</div>
 	</div>
+	<h2>使用 table 元素的网页布局</h2>
+	<table width="500" border="0">
+		<tr>
+			<td colspan="2" style="background-color: #FFA500;text-align: center;">
+				<h1>主要网页标题</h1>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: #FFD700;width: 100px;vertical-align: top;">
+				<b>菜单</b><br>
+				HTML<br>
+				CSS<br>
+				JavaScript
+			</td>
+			<td style="background-color: #EEEEEE;height: 200px;width: 400px;vertical-align: top;">内容在这里</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="background-color: #FFA500;text-align: center;">
+				版权 @ <a href="http://www.face-python.wang">face-python</a>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
