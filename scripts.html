@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>test(Face)</title>
+</head>
+<body>
+	<script type="text/javascript">document.write('Hello World!')</script>
+	<noscript>抱歉，你的浏览器不支持JaveScript!</noscript>
+	<p>不支持JaveScript的浏览器会使用&lt;noscript&gt;元素中的定义的内容（文本）来替代。</p>
+	<p>JaveScript能够直接写入HTML输出流中：</p>
+	<script type="text/javascript">
+		document.write("<h1>这是一个标题</h1>")
+		document.write("<p>这是一个段落</p>")
+	</script>
+	<p>您只能在HTML输出流中使用<strong>document.write</strong>。如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。</p>
+	<h2>JaveScript事件响应</h2>
+	<h3>我的第一个JaveScript</h3>
+	<p id="demo">
+		JaveScript 可以触发事件，就像点击按钮。
+	</p>
+	<script type="text/javascript">
+		function myFunction()
+		{
+			document.getElementById('demo').innerHTML="Hello JaveScript!"
+		}
+	</script>
+	<button type="button" onclick="myFunction()">点我</button>
+	<h2>JaveScript处理HTML样式</h2>
+	<h3>我的第一段JaveScript</h3>
+	<p id="demo1"> JaveScript 能改变HTML的样式。</p>
+	<script>
+		function MyFunction1()
+		{
+			x=document.getElementById("demo1")
+			x.style.color="#ff0000";
+		}
+	</script>
+	<button type="button" onclick="MyFunction1()">点击这里</button>
+</body>
+</html>
